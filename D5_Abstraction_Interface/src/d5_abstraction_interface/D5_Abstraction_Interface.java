@@ -2,24 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package d3_create_object;
+package d5_abstraction_interface;
 
 /**
  *
  * @author rvdas
  */
-
-public class D3_Create_Object {
+public class D5_Abstraction_Interface {
 
     /**
      * @param args the command line arguments
      */
-    
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        Cars brand = new Cars();
-        System.out.println(brand.car4);
     }
     
 }
