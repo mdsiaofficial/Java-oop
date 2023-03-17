@@ -13,8 +13,13 @@ public class D5_Abstraction_Interface {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
         // TODO code application logic here
+        MobileUser mu_a = new Ashiq();
+        MobileUser mu_m = new Mahida();
+        mu_a.SendMessage();
+        mu_m.SendMessage();
     }
     
 }

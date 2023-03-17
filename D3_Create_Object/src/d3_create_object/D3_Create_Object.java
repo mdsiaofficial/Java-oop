@@ -20,6 +20,11 @@ public class D3_Create_Object {
         
         Cars brand = new Cars();
         System.out.println(brand.car4);
+        
+        
+        Circle elements = new Circle();
+        elements.peremeter = "New peremeter";
+        System.out.println(elements.peremeter);
     }
     
 }
