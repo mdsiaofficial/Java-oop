@@ -18,6 +18,10 @@ public class Static_keyword {
         Student s2 = new Student("Tiger", 102);
         s1.display();
         s2.display();
+        System.out.println(Student.university+"+XXX");
+        Student.university=Student.university+", Bangladesh";
+        System.out.println(Student.university);
+        
     }
     
 }
