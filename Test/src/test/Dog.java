@@ -1,4 +1,4 @@
-package uni;
+package test;
 public class Dog extends Animal{
     @Override
     public void move(){
@@ -7,4 +7,5 @@ public class Dog extends Animal{
     public void bark(){
         System.out.println("Bark Bark");
     }
+    
 }
