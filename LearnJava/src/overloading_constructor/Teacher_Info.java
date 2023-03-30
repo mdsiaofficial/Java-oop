@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package overloading_constructor;
 
-/**
- *
- * @author rvdas
- */
 public class Teacher_Info {
     String name, gender;
     int phone;
@@ -27,7 +20,6 @@ public class Teacher_Info {
         System.out.println("Name: "+ name);
         System.out.println("Gender: "+ gender);
         System.out.println("Phone: "+ phone);
-        
         
     }
 }
