@@ -4,10 +4,6 @@
  */
 package d5_abstraction;
 
-/**
- *
- * @author rvdas
- */
 public class Mahida extends MobileUser {
     @Override
     void SendMessage(){
