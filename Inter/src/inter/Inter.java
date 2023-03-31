@@ -23,6 +23,8 @@ public class Inter {
         House h = new House();
         Warehouse w = new Warehouse();
         Area a = new Area();
+
+        
         h.what();
         s.what();
         w.what();
