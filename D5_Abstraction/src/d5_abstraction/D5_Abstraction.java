@@ -4,16 +4,7 @@
  */
 package d5_abstraction;
 
-/**
- *
- * @author rvdas
- */
 public class D5_Abstraction {
-
-    /**
-     * @param args the command line arguments
-     */
-    
     public static void main(String[] args) {
         // TODO code application logic here
         MobileUser mu_a = new Ashiq();
@@ -21,5 +12,4 @@ public class D5_Abstraction {
         mu_a.SendMessage();
         mu_m.SendMessage();
     }
-    
 }
