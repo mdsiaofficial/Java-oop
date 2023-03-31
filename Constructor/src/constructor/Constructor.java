@@ -9,11 +9,21 @@ package constructor;
  * @author rvdas
  */
 public class Constructor {
+    
+    void Constructor(){
+        System.out.println("AA");
+    }
+    void Constructor(int a){
+        System.out.println(a);
+    }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
+        
+        Constructor c = new Constructor();
+        //c.Constructor();
+        //c.Constructor(10);
+        
+        
         // TODO code application logic here
 //        int a,b;
 //        a=10;
@@ -22,17 +32,17 @@ public class Constructor {
 //            System.out.println(a);
 //        else
 //            System.out.println(b);
-        int n=10;
-        String x="ASHIQ";
-        switch(x){
-            case "ASHIQ":
-                System.out.println("Same");
-                break;
-            default:
-                System.out.println("Jani na");
-                break;
-         
-        }
+//        int n=10;
+//        String x="ASHIQ";
+//        switch(x){
+//            case "ASHIQ":
+//                System.out.println("Same");
+//                break;
+//            default:
+//                System.out.println("Jani na");
+//                break;
+//         
+//        }
     }
     
 }

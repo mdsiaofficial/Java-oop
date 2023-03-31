@@ -4,10 +4,6 @@
  */
 package d5_interface;
 
-/**
- *
- * @author rvdas
- */
 public interface Area {
     void shop();
 }

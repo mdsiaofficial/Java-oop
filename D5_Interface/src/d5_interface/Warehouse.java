@@ -4,10 +4,6 @@
  */
 package d5_interface;
 
-/**
- *
- * @author rvdas
- */
 public class Warehouse {
     void shop(){
         System.out.println("Here we store products.");

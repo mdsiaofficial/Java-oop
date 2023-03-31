@@ -4,10 +4,6 @@
  */
 package d5_interface;
 
-/**
- *
- * @author rvdas
- */
 public class House {
     void shop(){
         System.out.println("Here we live.");
