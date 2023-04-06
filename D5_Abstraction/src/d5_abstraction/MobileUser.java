@@ -1,4 +1,3 @@
-
 package d5_abstraction;
 
 public abstract class MobileUser {
