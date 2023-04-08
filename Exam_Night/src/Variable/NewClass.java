@@ -4,5 +4,6 @@ public class NewClass {
     static String name="Ashiq";
     void meh(){
         String s2="Local";
+        System.out.println(s);
     }
 }
