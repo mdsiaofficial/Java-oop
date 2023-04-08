@@ -10,9 +10,9 @@ public class MyClass {
         return (number % 5 == 0);
     }
 
-    private void displayWelcomeMessage(String name) {
-        System.out.println("Welcome, " + name + "!");
-    }
+    // private void displayWelcomeMessage(String name) {
+    //     System.out.println("Welcome, " + name + "!");
+    // }
 
     void myMethod() {
         System.out.println("Demo Message.");
