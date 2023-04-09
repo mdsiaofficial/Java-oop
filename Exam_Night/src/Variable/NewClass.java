@@ -5,5 +5,6 @@ public class NewClass {
     void meh(){
         String s2="Local";
         System.out.println(s);
+        System.out.println(s2);
     }
 }
