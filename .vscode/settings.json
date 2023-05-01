@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Multi_Threading",
         "Exam_Night/src",
         "ErrorHandling",
-        "Multi_Threading"
+        "Multi_Thread/src/multi_thread"
     ]
 }

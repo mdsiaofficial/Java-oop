@@ -1,3 +1,5 @@
+package multi_thread;
+
 class MyRunnable implements Runnable{
     Thread t;
     public MyRunnable(String tName){
@@ -5,6 +7,7 @@ class MyRunnable implements Runnable{
         System.out.println("Child thread: "+ t);
         t.start();
     }
+    @Override
     public void run(){
         for(int i = 0; i<10; i++){
             try{
