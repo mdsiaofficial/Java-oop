@@ -1,3 +1,4 @@
+package errorhandling;
 
 public class Example3 {
 
@@ -8,7 +9,6 @@ public class Example3 {
             System.out.println("welcome to vote");
         }
     }
-
     public static void main(String args[]) {
         validate(18);
         System.out.println("rest of the code...");
