@@ -1,3 +1,4 @@
+package Exception_Handling;
 
 public class Example4 {
 
@@ -17,7 +18,7 @@ public class Example4 {
                 System.out.println(e);
             } 
         }catch (Exception e) {
-            System.out.println("handeled");
+                System.out.println("handeled");
         }
 
         System.out.println("normal flow..");

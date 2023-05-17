@@ -1,6 +1,7 @@
-package errorhandling;
+package Exception_Handling;
 
 public class Example2 {
+
         public static void main(String args[]) {
                 int a = 1;
                 int c[] = {1,2};
@@ -8,3 +9,9 @@ public class Example2 {
                 c[3] = 99;
         }
 }
+       
+
+
+
+
+   

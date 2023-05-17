@@ -1,6 +1,5 @@
-
-public class Test1  
-{ 
+package Exception_Handling;
+public class Exception{ 
     public static void main(String[] args) 
     { 
         try
@@ -13,10 +12,13 @@ public class Test1
         { 
             System.out.printf("3"); 
         } 
+        catch(Exception e) 
+        { 
+            System.out.printf("4"); 
+        } 
         finally
         { 
             System.out.printf("5"); 
         } 
     } 
 } 
-

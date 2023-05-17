@@ -1,8 +1,10 @@
 {
-    "java.project.sourcePaths": [
-        "Multi_Threading",
-        "Exam_Night/src",
-        "ErrorHandling",
-        "Multi_Thread/src/multi_thread"
-    ]
+  "java.project.sourcePaths": [
+    "Multi_Threading",
+    "Multi_Thread/src/multi_thread",
+    "Final/D1_Exception",
+    "Exam_Night/src",
+    "ErrorHandling",
+    "3rd_Mid/D3_Create_Object/src/d3_create_object"
+  ]
 }
