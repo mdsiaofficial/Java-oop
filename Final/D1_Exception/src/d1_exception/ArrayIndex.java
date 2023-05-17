@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package d1_exception;
 
-/**
- *
- * @author rvdas
- */
 public class ArrayIndex {
+
+    public static void main(String[] args) {
+        try{
+            try{
+                int a[]={3,4,5};
+                int b[]=new int[5];
+                a[8]=6;
+                b[9]=34;
+            }catch(ArrayIndexOutOfBoundsException e){
+                System.out.println(e);
+            }
+            
+        }catch(Exception n){
+            System.out.println(n);
+        }
+    }
     
 }
