@@ -13,7 +13,6 @@ class Table {
         }
     }
 }
-
 class NewThread_1 extends Thread{
     Table t;
     NewThread_1(Table t){
@@ -37,7 +36,6 @@ class NewThread_2 extends Thread{
         }
     }
 }
-
 public class Sync_Block {
     public static void main(String[] args) {
         Table obj = new Table();

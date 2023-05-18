@@ -6,7 +6,6 @@ public class Q2 {
             int[] numbers = {1, 2, 3};
             int result = numbers[4]; // Trying to access an invalid index
             System.out.println("Result: " + result);
-            
             try {
                 // Inner try block
                 int dividend = 10;
