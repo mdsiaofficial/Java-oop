@@ -5,10 +5,10 @@ class MyException extends Exception {
     }
 }
 class Program {
-    void cal(int d) throws MyException{
+    void calc(int d) throws MyException{
         if(d==0){
             throw new MyException("Error: You cannot divide by zero.\n"
-                    + "Division by zero is not allowed.");
+                    + "You cannot divide by zero.");
         }
     }
 }

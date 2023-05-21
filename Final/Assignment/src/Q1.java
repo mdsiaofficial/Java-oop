@@ -11,6 +11,7 @@ class NewClass {
         return dividend / divisor;
     }
 }
+
 public class Q1 {
     public static void main(String[] args) {
         try {
