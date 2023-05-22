@@ -1,5 +1,5 @@
 // MatrixSum
-public class Q7 {
+public class Q_8 {
     public static void main(String[] args) {
         int[][] matrix = {
             {1, 2, 3, 4},
@@ -26,7 +26,6 @@ public class Q7 {
         for (int i = 0; i < 4; i++) {
             System.out.println("Row " + (i + 1) + ": " + rowSums[i]);
         }
-
         // Print column sums
         System.out.println("\nColumn sums:");
         for (int j = 0; j < 4; j++) {

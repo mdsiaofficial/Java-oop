@@ -23,12 +23,10 @@ class Thread2 extends Thread {
         }
     }
 }
-
-public class Q3 {
+public class Q_4 {
     public static void main(String[] args) {
         Thread1 t1 = new Thread1();
         Thread2 t2 = new Thread2();
-
         t1.start();
         t2.start();
     }

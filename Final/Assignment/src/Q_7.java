@@ -1,5 +1,5 @@
 // ReverseArray
-public class Q6 {
+public class Q_7{
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5};
         System.out.println("Original array:");
@@ -14,7 +14,7 @@ public class Q6 {
     }
     public static void printReverseArray(int[] array) {
         for (int i = array.length - 1; i >= 0; i--) {
-            System.out.print(array[i] + " ");
+            System.out.println(array[i] + " ");
         }
     }
 }

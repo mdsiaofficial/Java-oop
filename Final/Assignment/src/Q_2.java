@@ -9,7 +9,6 @@ class Q_2{
             }catch(ArithmeticException e){
                 System.out.println(e);
             }
-            
             try{
                 arr[7]=10;
                 int c=22/0;

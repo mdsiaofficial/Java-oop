@@ -1,40 +1,45 @@
 // SynchronizationExample
-class Counter {
-    private int count;
-    public Counter() {
-        count = 0;
-    }
-    public synchronized void increment() {
-        count++;
-    }
-    public synchronized int getCount() {
-        return count;
-    }
-}
-class IncrementThread extends Thread {
-    private Counter counter;
-    public IncrementThread(Counter counter) {
-        this.counter = counter;
-    }
-    public void run() {
-        for (int i = 0; i < 1000; i++) {
-            counter.increment();
+class New {
+    void Print(int n){
+        for(int i=0; i<=5; i++){
+            System.out.println(n*i+" ");
+            try{
+                Thread.sleep(400);
+                //sleep(400);
+            }catch(Exception e){
+                System.out.println(e);
+            }
         }
     }
 }
-public class Q4 {
-    public static void main(String[] args) throws InterruptedException {
-        Counter counter = new Counter();
-        // Create multiple threads
-        IncrementThread thread1 = new IncrementThread(counter);
-        IncrementThread thread2 = new IncrementThread(counter);
-        // Start the threads
-        thread1.start();
-        thread2.start();
-        // Wait for the threads to finish
-        thread1.join();
-        thread2.join();
-        // Print the final count
-        System.out.println("Final count: " + counter.getCount());
+class NewThread_1 extends Thread{
+    New t;
+    NewThread_1(New t){
+        this.t = t;
+    }
+    public void run(){
+        synchronized (t){
+            t.Print(5);
+        }
+    }
+}
+class NewThread_2 extends Thread{
+    New t;
+    NewThread_2(New t){
+        this.t = t;
+    }
+    public void run(){
+        synchronized (t){
+            t.Print(100);
+        }
+    }
+}
+public class Q_5 {
+    public static void main(String[] args) {
+        New obj = new New();
+        NewThread_1 t1 = new NewThread_1(obj);
+        NewThread_2 t2 = new NewThread_2(obj);
+        t1.start();
+        t2.start();
     }
 }

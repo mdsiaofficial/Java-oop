@@ -24,7 +24,6 @@ class NewThread_1 extends Thread{
         }
     }
 }
-
 class NewThread_2 extends Thread{
     Table t;
     NewThread_2(Table t){

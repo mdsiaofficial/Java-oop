@@ -1,12 +1,11 @@
 import java.util.Scanner;
-
 // MatrixPrinter
-public class Q5 {
+public class Q_6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the number of rows: ");
+        System.out.print("Row: ");
         int rows = scanner.nextInt();
-        System.out.print("Enter the number of columns: ");
+        System.out.print("Columns: ");
         int columns = scanner.nextInt();
         int[][] matrix = new int[rows][columns];
         System.out.println("Enter the matrix elements:");
