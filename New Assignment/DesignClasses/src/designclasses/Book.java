@@ -4,10 +4,25 @@
  */
 package designclasses;
 
-/**
- *
- * @author rvdas
- */
-public class BookShop {
+
+public class Book {
+    private String bookName;
+    private String authorName;
+    private int price;
+    
+    public Book(String bn, String an){
+        this.bookName = bn;
+        this.authorName = an;
+    }
+    
+    public Book(int p){
+        this.price = p;
+    }
+    
+    // Methods //
+    public void displayInfo(){
+        System.out.println("Name: "+bookName);
+        System.out.println("Author: "+authorName);
+    }
     
 }
